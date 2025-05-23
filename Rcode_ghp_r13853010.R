@@ -1,5 +1,5 @@
-lapply(c("rio","dplyr","tidyr"), 
-       library, character.only=T)
+library(rio)
+library(dplyr)
 setwd("/Users/lydiapless/Downloads/")
 getwd()
 dengue<- import("dengue_assignment.csv")
